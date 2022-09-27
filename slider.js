@@ -163,7 +163,7 @@ var timelineContainer = document.querySelector("#timelineCounter");
 
 
     function callConst(v,twB){
-      console.log("this");
+//       console.log("this");
               updateInterval= setInterval(function(){
                   v.value=twB.time();
                   var timelineContainer = document.querySelector("#timelineCounter");
@@ -181,6 +181,6 @@ function updateSlider(t){
 }      
 
 function updatePause(){
-          console.log("this");
+//           console.log("this");
   twnID.pause(sliderID.value);
 }
