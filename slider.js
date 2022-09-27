@@ -123,7 +123,7 @@ var timelineCOunt = document.createElement("div");
     timelineCOunt.setAttribute("id","timelineCounter");
     containerDiv.appendChild(timelineCOunt);
 
-var timelineContainer = document.querySelector("#timelineCounter");
+var timelineContainer = document.querySelector("#timelineCounter"); /// change the width of timeline
      timelineContainer.style.width=(w*0.05)+"px";
      timelineContainer.style.top="0px";
      timelineContainer.style.left="30px";
