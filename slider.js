@@ -59,7 +59,7 @@ var body_ = document.getElementsByTagName("BODY")[0]
   slider.setAttribute("onChange","updatePause()")  
   containerDiv.appendChild(slider);
    sliderID=document.querySelector("#slider"); 
-       sliderID.style.width=(w-(w*0.75))+"px"
+       sliderID.style.width=(w-(w*0.25))+"px"
        sliderID.style.position="absolute";        
        sliderID.style.top="0px"; 
        sliderID.style.right="0px";
