@@ -134,7 +134,7 @@ var timelineContainer = document.querySelector("#timelineCounter");
      timelineContainer.style.position="absolute"
       timelineContainer.style.fontSize="14px"
   
-     timelineContainer.innerHTML ="time-->"+twn.time()
+     timelineContainer.innerHTML =twn.time()
 
 
 
@@ -173,7 +173,7 @@ var timelineContainer = document.querySelector("#timelineCounter");
                   var timelineContainer = document.querySelector("#timelineCounter");
                    var tweenTime = twB.time();
                    var twoDecimal =tweenTime.toFixed(2);
-                  timelineContainer.innerHTML ="time:"+ twoDecimal;
+                  timelineContainer.innerHTML = twoDecimal;
                 // console.log(tween.time());
               }, 10);
     }
